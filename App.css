@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f2f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 600px;
+  background-color: black;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+video {
+  display: block;
+}
+
+.controls button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.controls button:hover {
+  background-color: #2980b9;
+}
+
+.translation-result {
+  margin-top: 30px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 600px;
+}
+
+.translation-result h2 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.translation-result p {
+  color: #555;
+  font-size: 1.2em;
+  min-height: 25px; /* Memberikan ruang agar tidak bergeser */
+}
